@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200;400;500;600;800;1000&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;1,400;1,500;1,800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,400;1,500&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,900&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #5372F0;
+    font-family: 'Poppins', sans-serif;
+}
+.container {
+    width: 690px;
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 30px;
+}
+.wrapper {
+    border: 1px solid #bbb;
+    border-radius: 8px;
+}
+.wrapper .text-input {
+    display: flex;
+    column-gap: 10px;
+    border-bottom: 1px solid #bbb;
+}
+.text-input .text-to {
+    border-left: 1px solid #bbb !important;
+    border-radius: 0px !important;
+}
+.wrapper .text-input textarea {
+    height: 250px;
+    width: 100%;
+    resize: none;
+    background: none;
+    border-radius: 5px !important;
+    border: none;
+    outline: none;
+    padding: 10px 15px;
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+}
+.controls, li, .icons, .icons i {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.controls {
+    list-style: none;
+    padding: 12px 15px;
+}
+.controls .row.from, .icons {
+    border-right: 1px solid #9f9f9f;
+    padding-right: 15px;
+}
+.controls .row.to {
+    border-left: 1px solid #9f9f9f;
+    padding-left: 15px;
+}
+.controls .icons {
+    width: 38%;
+}
+.controls .icons i {
+    color: #9f9f9f;
+    width: 50px;
+    font-size: 14px;
+    justify-content: center;
+    cursor: pointer;
+    transition: 0.4s all;
+}
+.controls .icons i:hover {
+    color: #292525;
+}
+.controls .row select {
+    background: none;
+    outline: none;
+    border: none;
+    font-size: 18px;
+}
+.controls .exchange {
+    font-size: 16px;
+    color: #9f9f9f;
+    cursor: pointer;
+    transition: 0.4s all;
+}
+.controls .exchange:hover {
+    color: #292525;
+}
+.container button {
+    width: 100%;
+    margin-top: 20px;
+    padding: 14px;
+    background: #5372f0e6;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 17px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transition: 0.4s;
+}
+.container button:hover {
+    background: #5372F0;
+}
